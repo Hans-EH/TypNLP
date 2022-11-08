@@ -4,7 +4,7 @@ import PhotoModule from './modules/PhotoModule'
 
 import { Timeline } from 'react-twitter-widgets'
 
-function HomePage() {
+function FrontPage() {
     return (
         <div>
             <WelcomeModule />
@@ -22,4 +22,4 @@ function HomePage() {
     );
 }
 
-export default HomePage;
+export default FrontPage;

@@ -1,5 +1,6 @@
 import '../../../App.css';
 
+//Email, education, position
 const Card = (props) => {
     return (
         <div>
