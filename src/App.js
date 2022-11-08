@@ -1,12 +1,24 @@
+import { useState } from 'react';
+
 import './App.css';
+
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import Homepage from './pages/home/Homepage';
+import HomePage from './pages/home/HomePage';
+import PeoplePage from './pages/people/PeoplePage';
+import PublicationsPage from './pages/publications/PublicationsPage';
+
 function App() {
+  const [page, setPage] = useState("Home");
+
   return (
-    <div className="App" style={{backgroundColor: 'white'}}>
-      <NavBar />
-      <Homepage />
+    <div className="App">
+      <NavBar setPage={setPage} />
+
+      {page === "People" ? <PeoplePage /> :
+        page === "Publications" ? <PublicationsPage /> :
+          <HomePage />}
+
       <Footer />
     </div>
   );

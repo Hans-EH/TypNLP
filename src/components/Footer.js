@@ -12,7 +12,7 @@ function Footer() {
                 <div>
                     <span className="footer-title" >Connect</span>
                     <a className="link link-hover" href="https://gitlab.com/SaintHans">Github</a>
-                    <a className="link link-hover" href="https://hansheje.com/">Twitter</a>
+                    <a className="link link-hover" href="https://twitter.com/TypNLP">Twitter</a>
                 </div>
             </footer>
         </div>

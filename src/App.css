@@ -13,7 +13,7 @@
 .App {
   text-align: center;
   background-color: var(--background);
-  height: 100vmin;
+  height: 100%;
 }
 
 
@@ -45,6 +45,8 @@
   margin-top: 40vmin;
   background-color: var(--primary3);
   position: relative;
+  margin-bottom: 0em;
+  bottom: 0;
 
 }
 
