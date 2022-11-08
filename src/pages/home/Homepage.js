@@ -2,14 +2,14 @@ import '../../App.css';
 import WelcomeModule from './modules/WelcomeModule'
 import PhotoModule from './modules/PhotoModule'
 
-//import { Timeline } from 'react-twitter-widgets'
+import { Timeline } from 'react-twitter-widgets'
 
 function HomePage() {
     return (
         <div>
             <WelcomeModule />
             <PhotoModule />
-            {/*<Timeline
+            <Timeline
                 dataSource={{
                     sourceType: 'profile',
                     screenName: 'TypNLP'
@@ -17,7 +17,7 @@ function HomePage() {
                 options={{
                     height: '550'
                 }}
-            />*/}
+            />
         </div>
     );
 }

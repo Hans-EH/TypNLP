@@ -4,7 +4,7 @@ import './App.css';
 
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import HomePage from './pages/home/HomePage';
+//import HomePage from './pages/home/HomePage';
 import PeoplePage from './pages/people/PeoplePage';
 import PublicationsPage from './pages/publications/PublicationsPage';
 
@@ -17,7 +17,7 @@ function App() {
 
       {page === "People" ? <PeoplePage /> :
         page === "Publications" ? <PublicationsPage /> :
-          <HomePage />}
+          /*<HomePage />*/<></>}
 
       <Footer />
     </div>
